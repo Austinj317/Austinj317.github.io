@@ -19,6 +19,10 @@ h1, h3, h2, h4, p{
 .about {
     background-color: #d3d3d3;
 }
+.portfolio{
+    background-color: #d3d3d3;
+}
+
 body {
     font-family: 'Poiret One', cursive;
 }
