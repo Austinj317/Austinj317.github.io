@@ -315,7 +315,7 @@ body {
   color: #fff;
 }
 
-.send-button {
+#success {
   margin-top: 15px;
   width: 400px;
   background-color:#4169e1;
@@ -352,9 +352,6 @@ body {
   margin-left: 62px;
 }
 
-.phone {
-  margin-left: 56px;
-}
 
 .gmail {
   margin-left: 53px;
