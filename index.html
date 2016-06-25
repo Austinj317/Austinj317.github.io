@@ -11,7 +11,9 @@
 
     <title>Austin Johnson</title>
 
-    
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,7 +48,9 @@
             <li>
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
             </li>
-            
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
         </ul>
     </nav>
 
@@ -136,9 +140,71 @@
         </div>
         <!-- /.container -->
     </section>
-    
+   <br> 
    
+    <section id="contact">
+  
+        <h1 class="section-header">Contact Me</h1>
+  
+            <div class="contact-wrapper">
+    
+    <!-- CONTACT PAGE LEFT -->
+    
+                <form class="form-horizontal" role="form" method="post" action="index.php">
+    
+                    <div class="container">
+        
+                        <div class="form-group">
+                            <div class="col-sm-8">
+                                <input type="name" class="form-control" id="inputNAME3" placeholder="NAME">
+                            </div>
+                        </div>
 
+                        <div class="form-group">
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="inputEMAIL3" placeholder="EMAIL">
+                            </div>
+                        </div>
+
+                        <textarea class="form-control" rows="8" placeholder="MESSAGE"></textarea>
+              
+                        <button class="btn btn-primary send-button" type="submit" value="SEND"><i class="fa fa-paper-plane"></i></button>
+          
+                    </div>
+      
+                </form>
+    
+      <!-- CONTACT PAGE RIGHT --> 
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Indianapolis, IN</span></i></li>
+          
+         
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">austinj31799@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr>
+
+        <ul class="social-media-icons-list">
+            <li><a href="#"><a href="https://www.facebook.com/profile.php?id=100006826602685"><i class="fa fa-facebook fa-fw fa-3x"></i></a></a>
+            </li>
+            <li>
+                <a href="#"><a href="https://twitter.com/AustinDaleJ"><i class="fa fa-twitter fa-fw fa-3x"></i></a></a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <div class="copyright">&copy; 2016 ALL RIGHTS RESERVED</div>
+
+      </div>
+    
+  </div>
+ 
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -146,21 +212,9 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h3><strong>Austin Johnson</strong>
                     </h3>
-                    <h4>Indianapolis, IN<br></h4>
-                    <ul class="list-unstyled">
-                       
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:austinj31799@gmail.com">austinj31799@gmail.com</a>
-                        </li>
-                    </ul>
+                    
                     <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><a href="https://www.facebook.com/profile.php?id=100006826602685"><i class="fa fa-facebook fa-fw fa-3x"></i></a></a>
-                        </li>
-                        <li>
-                            <a href="#"><a href="https://twitter.com/AustinDaleJ"><i class="fa fa-twitter fa-fw fa-3x"></i></a></a>
-                        </li>
-                    </ul>
+            
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Austin Johnson 2016</p>
                 </div>
