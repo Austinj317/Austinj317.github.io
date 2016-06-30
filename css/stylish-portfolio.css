@@ -5,6 +5,16 @@
  */
 
 /* Global Styles */
+#amer{
+    position: absolute;
+    right: -200px;
+    top:300px;
+}
+#prof{
+    position: absolute;
+    left: -200px;
+    top:70px;
+}
 
 .contLink{
     margin:0 auto;
